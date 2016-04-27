@@ -1,0 +1,94 @@
+body {
+	background-color: #1abc9c;
+	color: white;
+}
+
+.masthead {
+	width: 40em;
+	height: 10em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.shopping-list {
+	width: 40em;
+	min-height: 30em;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+.add-items {
+	outline: 0;
+    height: 36px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.form-control {
+	outline: 0;
+    width: 55%;
+    height: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 10px;
+    background-color: transparent;
+}
+
+
+.add {
+	outline: 0;
+    float: right;
+    width: 20%;
+    height: 36px;
+    color: #1abc9c;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.list-items {
+	list-style: none;
+	text-align: left;
+	padding: 0;
+}
+
+.checkbox {
+	margin-left: 0;
+	margin-right: 10em;
+}
+
+.item {
+	font-size: 1.5em;
+	border: 3px solid white;
+}
+
+.remove {
+	float: right;
+	cursor: pointer;
+
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: white;
+  opacity: 1;
+}
